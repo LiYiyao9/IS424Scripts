@@ -19,8 +19,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 url="https://open.spotify.com/search"
-file = open(r'C:\Users\Li Yiyao\Desktop\Codes\DM_Music\songnames.csv','r')
-driver = webdriver.Chrome(r'C:\Users\Li Yiyao\Desktop\Codes\Chrome79\chromedriver.exe')
+file = open(r'Directory to file:songnames.csv','r')
+driver = webdriver.Chrome(r'Directory to your chromedriver.exe')
 driver.implicitly_wait(120)
 driver.get(url)
 driver.maximize_window()
