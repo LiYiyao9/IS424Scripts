@@ -36,7 +36,7 @@ for row in low:
 
 print("exepected output : 90% ")
 print ("percentage of higher than mid tense song listeners",
-        len(UID_low)/len(UID_low.size))
+        len(UID_med)/len(UID_low + UID_med))
 
 #part 2 
 
@@ -46,7 +46,7 @@ mental_high = []
 
 """
 for row in file_csv:
-    if song == "upbeat" & user mental:       
+    if row[]:       
             mental_low.append(unique user_id)
         else:
             mental_high.append(unique user id)
